@@ -3,9 +3,7 @@ import Sobre from '../components/Sobre.vue'
 </script>
 
 <template>
-  <h2>Sobre Mim</h2>
+  <main>
+    <Sobre />
+  </main>
 </template>
-
-<style>
-
-</style>
