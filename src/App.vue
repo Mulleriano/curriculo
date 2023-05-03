@@ -231,5 +231,4 @@ footer h2 {
   margin: 0 50px;
 }
 
-
 </style>
