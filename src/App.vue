@@ -1,12 +1,18 @@
 <script>
 import { RouterLink, RouterView } from 'vue-router'
-import Sobre from './components/Sobre.vue'
 
 export default {
   data() {
     return {
       nome: "Igor Muller",
       profissao: "Desenvolvedor Front-End"
+    }
+  },
+
+  // Estilo do link ativo
+  methods: {
+    active() {
+      this.isActive = false;
     }
   }
 }
@@ -22,14 +28,14 @@ export default {
       <header>
         <img id="minhaFoto" alt="Minha foto" class="logo" src="@/assets/minhaFoto.jpeg" />
 
-        <h1>{{ nome }}</h1>
+        <h1 id="nome">{{ nome }}</h1>
         <p id="profissao">{{ profissao }}</p>
       </header>
 
       <nav>
-        <RouterLink class="teste" to="/">Sobre mim</RouterLink>
-        <RouterLink class="teste" to="/conhecimentos">Conhecimentos</RouterLink>
-        <RouterLink class="teste" to="/experiencias">Experiencias</RouterLink>
+        <RouterLink class="links" :class="{ active: isActive }" to="/" @click="active">Sobre mim</RouterLink>
+        <RouterLink class="links" :class="{ active: isActive }" to="/conhecimentos" @click="active">Conhecimentos</RouterLink>
+        <RouterLink class="links" :class="{ active: isActive }" to="/experiencias" @click="active">Experiencias</RouterLink>
       </nav>
 
       <main>
@@ -38,6 +44,11 @@ export default {
 
       <footer>
         <h2>Contato</h2>
+        <div id="redes sociais">
+          <a href="https://wa.me/5541988195602" target="_blank">Whats</a>
+          <a href="https://wa.me/5541988195602" target="_blank">GitHub</a>
+          <a href="https://wa.me/5541988195602" target="_blank">Email</a>
+        </div>
       </footer>
 
     </div>
@@ -59,10 +70,21 @@ export default {
 }
 
 /* Variáveis para criação do grid */
-header {grid-area: a;}
-nav {grid-area: b;}
-main {grid-area: c;}
-footer {grid-area: d;}
+header {
+  grid-area: a;
+}
+
+nav {
+  grid-area: b;
+}
+
+main {
+  grid-area: c;
+}
+
+footer {
+  grid-area: d;
+}
 
 #content {
   /* Display de grid */
@@ -76,8 +98,6 @@ footer {grid-area: d;}
   /* Estilo do box de conteúdo */
   background-color: white;
   width: 50%;
-  border-radius: 5px;
-  padding: 10px;
 
   /* glassmorph */
   background: rgba(10, 37, 66, 0.2);
@@ -89,9 +109,11 @@ footer {grid-area: d;}
 }
 
 /* Estilo do Header */
+
 header {
   /* background-color: aquamarine; */
   width: 100%;
+  margin-top: 10px;
 
   /* Alinhamento centralizado */
   display: flex;
@@ -108,43 +130,71 @@ header {
   width: 200px;
 }
 
-h1 {
+#nome {
   color: #fff;
   font-weight: bold;
   margin-top: 10px;
-  font-size: 40px;
+  font-size: 2.5rem;
 }
 
+/* Estilo profissao */
 #profissao {
   color: #07cdf0;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 1.7rem;
 }
+
+/* Estilo da navegação */
 
 nav {
-  margin: 10px;
-  background-color: #070c13;
-  padding: 20px;
-  border-radius: 30px;
+  max-width: 250px;
+  margin: 50px 0;
+
+  /* Alinhamento dos links na navegação */
+  display: flex;
+  flex-direction: column;
 }
 
-nav .teste {
-  background-color: red;
+/* Estilo dos links */
+.links {
+  /* Alinhamento dos links individuais */
   display: flex;
-  flex-direction: row;
-  padding: 20px;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 1.7rem;
+  height: 100%;
+  padding-left: 30px;
+  color: #07cdf0;
+  transition: all ease 0.1s;
+}
+
+/* Estilo do link ativo */
+.router-link-exact-active {
+  color: #fff;
+  background: rgba(7, 205, 240, 0.45);
+  box-shadow: 0 8px 32px 0 rgba(9, 197, 230, 0.4);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(3px);
 }
 
 main {
-  /* background-color: burlywood; */
   width: 100%;
   min-height: 50vh;
   padding: 10px 0;
-  background-color: #07cdf0;
 }
 
 footer {
-  /* background-color: cadetblue; */
+  background-color: #07cdf0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
-  background-color: aliceblue;
-}</style>
+  padding: 30px;
+  font-size: 1rem;
+  border-radius: 0 0 10px 10px;
+}
+
+footer h2 {
+  font-weight: bold;
+}
+</style>
