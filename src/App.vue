@@ -1,13 +1,14 @@
-<script>
-import { RouterLink, RouterView } from 'vue-router'
+<script setup>
+import { RouterLink, RouterView } from 'vue-router';
+import HeaderView from './views/HeaderView.vue';
 
-export default {
+/* export default {
   data() {
     return {
       nome: "Igor Muller",
       profissao: "Desenvolvedor Front-End"
     }
-  },
+  }, 
 
   // Estilo do link ativo
   methods: {
@@ -15,7 +16,7 @@ export default {
       this.isActive = false;
     }
   }
-}
+} */
 
 </script>
 
@@ -26,10 +27,8 @@ export default {
     <div id="content">
 
       <header>
-        <img id="minhaFoto" alt="Minha foto" class="logo" src="@/assets/minhaFoto.jpeg" />
-
-        <h1 id="nome">{{ nome }}</h1>
-        <p id="profissao">{{ profissao }}</p>
+        <HeaderView />
+        
       </header>
 
       <nav>
@@ -43,9 +42,9 @@ export default {
       </main>
 
       <footer>
-        <div class="texto">
-          <h2>Contato</h2>
-        </div>
+
+        <h2 class="texto">Contato</h2>
+
         <div id="contact">
           
           <a href="https://wa.me/5541988195602" target="_blank">
@@ -61,6 +60,7 @@ export default {
           </a>
 
         </div>
+
       </footer>
 
     </div>
@@ -117,43 +117,7 @@ footer {
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(3px);
   border-radius: 10px;
-  border: 1px solid rgba(157, 150, 191, 0.18)
-}
-
-/* Estilo do Header */
-
-header {
-  /* background-color: aquamarine; */
-  width: 100%;
-  margin-top: 10px;
-
-  /* Alinhamento centralizado */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-/* Estilo da foto */
-#minhaFoto {
-  border-radius: 50%;
-  border: 7px solid rgb(7, 205, 240);
-  box-shadow: 0 5px 30px 0 rgba(9, 197, 230, 0.5);
-  width: 200px;
-}
-
-#nome {
-  color: #fff;
-  font-weight: bold;
-  margin-top: 10px;
-  font-size: 2.5rem;
-}
-
-/* Estilo profissao */
-#profissao {
-  color: #07cdf0;
-  font-weight: bold;
-  font-size: 1.7rem;
+  border: 1px solid rgba(157, 150, 191, 0.18);
 }
 
 /* Estilo da navegação */
