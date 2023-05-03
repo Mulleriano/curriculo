@@ -43,11 +43,23 @@ export default {
       </main>
 
       <footer>
-        <h2>Contato</h2>
-        <div id="redes sociais">
-          <a href="https://wa.me/5541988195602" target="_blank">Whats</a>
-          <a href="https://wa.me/5541988195602" target="_blank">GitHub</a>
-          <a href="https://wa.me/5541988195602" target="_blank">Email</a>
+        <div class="texto">
+          <h2>Contato</h2>
+        </div>
+        <div id="contact">
+          
+          <a href="https://wa.me/5541988195602" target="_blank">
+            <img src="./assets/whats.png" alt="Whats">
+          </a>
+          
+          <a href="https://github.com/Mulleriano" target="_blank">
+            <img src="./assets/github.png" alt="Git Hub">
+          </a>
+          
+          <a href="https://www.linkedin.com/in/mulleriano/" target="_blank">
+            <img src="./assets/linkedin.png" alt="Linkedin">
+          </a>
+
         </div>
       </footer>
 
@@ -171,7 +183,7 @@ nav {
 /* Estilo do link ativo */
 .router-link-exact-active {
   color: #fff;
-  background: rgba(7, 205, 240, 0.45);
+  background: rgba(7, 205, 240, 0.7);
   box-shadow: 0 8px 32px 0 rgba(9, 197, 230, 0.4);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(3px);
@@ -189,12 +201,35 @@ footer {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 30px;
   font-size: 1rem;
   border-radius: 0 0 10px 10px;
 }
 
+footer a img {
+  width: 50px;
+}
+
 footer h2 {
   font-weight: bold;
+  font-size: 1.7rem;
+  padding: 30px;
 }
+
+#contact {
+  background-color: #fff;
+  height: 100%;
+  width: 500px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50px 0 0 0;
+} 
+
+#contact a {
+  margin: 0 50px;
+}
+
+
 </style>
