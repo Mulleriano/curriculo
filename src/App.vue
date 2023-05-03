@@ -1,6 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router';
 import HeaderView from './views/HeaderView.vue';
+import FooterView from './views/FooterView.vue';
 
 /* export default {
   data() {
@@ -43,23 +44,7 @@ import HeaderView from './views/HeaderView.vue';
 
       <footer>
 
-        <h2 class="texto">Contato</h2>
-
-        <div id="contact">
-          
-          <a href="https://wa.me/5541988195602" target="_blank">
-            <img src="./assets/whats.png" alt="Whats">
-          </a>
-          
-          <a href="https://github.com/Mulleriano" target="_blank">
-            <img src="./assets/github.png" alt="Git Hub">
-          </a>
-          
-          <a href="https://www.linkedin.com/in/mulleriano/" target="_blank">
-            <img src="./assets/linkedin.png" alt="Linkedin">
-          </a>
-
-        </div>
+        <FooterView/>
 
       </footer>
 
