@@ -88,7 +88,7 @@ footer {grid-area: d;}
 
 nav {
   max-width: 250px;
-  margin: 50px 0;
+  margin: 70px 0;
 
   /* Alinhamento dos links na navegação */
   display: flex;
@@ -105,7 +105,7 @@ nav {
   height: 100%;
   padding-left: 30px;
   color: #07cdf0;
-  transition: all ease 0.1s;
+  transition: all ease 0.2s;
 }
 
 /* Estilo do link ativo */
