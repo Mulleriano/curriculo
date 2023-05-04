@@ -3,7 +3,17 @@
 </script>
 
 <template>
-  <main>
-    <h2>Conhecimento</h2>
-  </main>
+  <div id="conhecimentos">
+    <h2>Conhecimentos</h2>
+  </div>
 </template>
+
+<style scoped>
+
+  #conhecimentos {
+    background-color: red;
+    height: 100%;
+    width: 100%;
+  }
+
+</style>
