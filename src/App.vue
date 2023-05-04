@@ -69,7 +69,7 @@ footer {grid-area: d;}
     "a a a a"
     "b c c c"
     "b c c c"
-    "d d d d";
+    "d d d d" / 1fr 1fr 1fr 1fr;
 
   /* Estilo do box de conteúdo */
   background-color: white;
@@ -87,8 +87,8 @@ footer {grid-area: d;}
 /* Estilo da navegação */
 
 nav {
-  max-width: 250px;
-  margin: 50px 0;
+  max-width: 100%;
+  margin: 70px 0;
 
   /* Alinhamento dos links na navegação */
   display: flex;
@@ -103,9 +103,9 @@ nav {
   justify-content: space-around;
   font-size: 1.7rem;
   height: 100%;
-  padding-left: 30px;
+  padding: 0 30px;
   color: #07cdf0;
-  transition: all ease 0.1s;
+  transition: all ease 0.2s;
 }
 
 /* Estilo do link ativo */
@@ -121,6 +121,6 @@ nav {
 main {
   width: 100%;
   min-height: 50vh;
-  padding: 10px 0;
+  margin-top: 20px;
 }
 </style>

@@ -11,15 +11,15 @@
     <div id="contact">
       
       <a href="https://wa.me/5541988195602" target="_blank">
-        <img src="../assets/whats.png" alt="Whats">
+        <img src="../assets/contato/whats.png" alt="Whats">
       </a>
       
       <a href="https://github.com/Mulleriano" target="_blank">
-        <img src="../assets/github.png" alt="Git Hub">
+        <img src="../assets/contato/github.png" alt="Git Hub">
       </a>
 
       <a href="https://www.linkedin.com/in/mulleriano/" target="_blank">
-        <img src="../assets/linkedin.png" alt="Linkedin">
+        <img src="../assets/contato/linkedin.png" alt="Linkedin">
       </a>
   
     </div>
@@ -31,6 +31,7 @@
 
 #footer {
   background-color: #07cdf0;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -67,5 +68,4 @@
 #contact a {
   margin: 0 30px;
 }
-
 </style>
