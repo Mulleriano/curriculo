@@ -16,6 +16,7 @@
   height: 100%;
   width: 100%;
   padding: 30px 50px;
+  overflow-y: auto;
 }
 
 h2 {
@@ -30,5 +31,15 @@ p {
   color: white;
   font-size: 1.2rem;
   line-height: 30px;
+}
+
+/* Estilo do Scrollbar */
+#sobreMim::-webkit-scrollbar {
+  width: 10px;
+}
+
+#sobreMim::-webkit-scrollbar-thumb {
+background-color: #07cdf0;
+border-radius: 50px;
 }
 </style>

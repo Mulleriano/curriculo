@@ -103,7 +103,7 @@ nav {
   justify-content: space-around;
   font-size: 1.7rem;
   height: 100%;
-  padding-left: 30px;
+  padding: 0 30px;
   color: #07cdf0;
   transition: all ease 0.2s;
 }
