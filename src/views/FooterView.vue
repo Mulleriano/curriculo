@@ -31,6 +31,7 @@
 
 #footer {
   background-color: #07cdf0;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
