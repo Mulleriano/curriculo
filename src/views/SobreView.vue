@@ -1,9 +1,9 @@
 <script setup>
-import Sobre from '../components/Sobre.vue'
+
 </script>
 
 <template>
   <main>
-    <Sobre />
+    <h2>Sobre mim</h2>
   </main>
 </template>

@@ -3,22 +3,6 @@ import { RouterLink, RouterView } from 'vue-router';
 import HeaderView from './views/HeaderView.vue';
 import FooterView from './views/FooterView.vue';
 
-/* export default {
-  data() {
-    return {
-      nome: "Igor Muller",
-      profissao: "Desenvolvedor Front-End"
-    }
-  }, 
-
-  // Estilo do link ativo
-  methods: {
-    active() {
-      this.isActive = false;
-    }
-  }
-} */
-
 </script>
 
 <template>
@@ -29,13 +13,21 @@ import FooterView from './views/FooterView.vue';
 
       <header>
         <HeaderView />
-        
+
       </header>
 
       <nav>
-        <RouterLink class="links" :class="{ active: isActive }" to="/" @click="active">Sobre mim</RouterLink>
-        <RouterLink class="links" :class="{ active: isActive }" to="/conhecimentos" @click="active">Conhecimentos</RouterLink>
-        <RouterLink class="links" :class="{ active: isActive }" to="/experiencias" @click="active">Experiencias</RouterLink>
+        <RouterLink to="/" class="links" :class="{ active: isActive }" @click="active">
+          Sobre mim
+        </RouterLink>
+
+        <RouterLink to="/conhecimentos" class="links" :class="{ active: isActive }" @click="active">
+          Conhecimentos
+        </RouterLink>
+
+        <RouterLink to="/experiencias" class="links" :class="{ active: isActive }" @click="active">
+          Experiencias
+        </RouterLink>
       </nav>
 
       <main>
@@ -43,9 +35,7 @@ import FooterView from './views/FooterView.vue';
       </main>
 
       <footer>
-
-        <FooterView/>
-
+        <FooterView />
       </footer>
 
     </div>
@@ -67,21 +57,10 @@ import FooterView from './views/FooterView.vue';
 }
 
 /* Variáveis para criação do grid */
-header {
-  grid-area: a;
-}
-
-nav {
-  grid-area: b;
-}
-
-main {
-  grid-area: c;
-}
-
-footer {
-  grid-area: d;
-}
+header {grid-area: a;}
+nav {grid-area: b;}
+main {grid-area: c;}
+footer {grid-area: d;}
 
 #content {
   /* Display de grid */
@@ -120,7 +99,7 @@ nav {
 .links {
   /* Alinhamento dos links individuais */
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
   justify-content: space-around;
   font-size: 1.7rem;
   height: 100%;
@@ -138,46 +117,10 @@ nav {
   -webkit-backdrop-filter: blur(3px);
 }
 
+/* Estilo dos conteúdos */
 main {
   width: 100%;
   min-height: 50vh;
   padding: 10px 0;
 }
-
-footer {
-  background-color: #07cdf0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  font-size: 1rem;
-  border-radius: 0 0 10px 10px;
-}
-
-footer a img {
-  width: 50px;
-}
-
-footer h2 {
-  font-weight: bold;
-  font-size: 1.7rem;
-  padding: 30px;
-}
-
-#contact {
-  background-color: #fff;
-  height: 100%;
-  width: 500px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  border-radius: 50px 0 0 0;
-} 
-
-#contact a {
-  margin: 0 50px;
-}
-
 </style>

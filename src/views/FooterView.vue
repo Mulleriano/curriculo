@@ -1,13 +1,5 @@
-<script>
+<script setup>
 
-export default {
-  data() {
-    return {
-      nome: "Igor Muller",
-      profissao: "Desenvolvedor Front-End"
-    }
-  }
-}
 </script>
 
 <template>
@@ -47,6 +39,7 @@ export default {
   border-radius: 0 0 10px 10px;
 }
 
+/* Tamanho padrão para os ícones */
 #footer a img {
   width: 50px;
 }
@@ -54,23 +47,25 @@ export default {
 #footer h2 {
   font-weight: bold;
   font-size: 1.7rem;
-  /* padding: 30px; */
+  padding-left: 30px;
 }
 
+/* Layout dos ícones */
 #contact {
   background-color: #fff;
   height: 100%;
   width: 500px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
+  padding: 20px 0;
   border-radius: 50px 0 0 0;
+
+  /* Alinhamento dos ícones */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 } 
 
 #contact a {
-  margin: 0 50px;
+  margin: 0 30px;
 }
 
 </style>

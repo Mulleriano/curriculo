@@ -1,9 +1,9 @@
 <script setup>
-import Experiencias from '../components/Experiencias.vue'
+
 </script>
 
 <template>
   <main>
-    <Experiencias />
+    <h2>Experiencias</h2>
   </main>
 </template>

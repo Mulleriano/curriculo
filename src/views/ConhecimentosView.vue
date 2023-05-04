@@ -1,9 +1,9 @@
 <script setup>
-import Conhecimentos from '../components/Conhecimentos.vue'
+
 </script>
 
 <template>
   <main>
-    <Conhecimentos />
+    <h2>Conhecimento</h2>
   </main>
 </template>

@@ -11,12 +11,14 @@ export default {
 </script>
 
 <template>
+
     <div id="usuario">
         <img id="minhaFoto" alt="Minha foto" class="logo" src="../assets/minhaFoto.jpeg" />
 
         <h1 id="nome">{{ nome }}</h1>
         <p id="profissao">{{ profissao }}</p>
     </div>
+
 </template>
 
 <style scoped>
