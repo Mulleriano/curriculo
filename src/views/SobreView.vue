@@ -1,5 +1,5 @@
 <script setup>
-
+import Carrossel from "../components/Carrossel.vue";
 </script>
 
 <template>
@@ -7,10 +7,12 @@
     <h2>Sobre mim</h2>
 
     <p>
-      Minha família é composta pela minha noiva maravilhosa, 2 gatos (o Jorel e o Peter) e uma cachorra chamada Ivy. Gosto de fazer Beatbox e de aprender coisas novas. Abaixo coloquei algumas fotos pra mostrar um pouco mais da minha vida!
+      Adoro passar o tempo com a minha família que é composta pela minha noiva maravilhosa, 2 gatos (o Jorel e o Peter) e uma cachorra chamada Ivy. Gosto
+      também de fazer Beatbox e de aprender coisas novas.
     </p>
 
-    
+    <!-- Abaixo coloquei algumas fotos pra mostrar um pouco mais da minha vida! -->
+    <!-- <Carrossel /> -->
   </div>
 </template>
 
@@ -35,7 +37,7 @@ h2 {
 
 p {
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 30px;
 }
 
@@ -45,7 +47,7 @@ p {
 }
 
 #sobreMim::-webkit-scrollbar-thumb {
-background-color: #07cdf0;
-border-radius: 50px;
+  background-color: #07cdf0;
+  border-radius: 50px;
 }
 </style>

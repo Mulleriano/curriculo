@@ -34,11 +34,11 @@ p {
 }
 
 /* Estilo do Scrollbar */
-#sobreMim::-webkit-scrollbar {
+#experiencias::-webkit-scrollbar {
   width: 10px;
 }
 
-#sobreMim::-webkit-scrollbar-thumb {
+#experiencias::-webkit-scrollbar-thumb {
 background-color: #07cdf0;
 border-radius: 50px;
 }

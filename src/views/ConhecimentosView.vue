@@ -5,6 +5,8 @@
 <template>
   <div id="conhecimentos">
     <h2>Conhecimentos</h2>
+
+
   </div>
 </template>
 
@@ -34,11 +36,11 @@ p {
 }
 
 /* Estilo do Scrollbar */
-#sobreMim::-webkit-scrollbar {
+#conhecimentos::-webkit-scrollbar {
   width: 10px;
 }
 
-#sobreMim::-webkit-scrollbar-thumb {
+#conhecimentos::-webkit-scrollbar-thumb {
 background-color: #07cdf0;
 border-radius: 50px;
 }
