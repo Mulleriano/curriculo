@@ -6,7 +6,7 @@
   <div id="experiencias">
 
     <h3>Plug Importing - Vendedor | 2019 e 2020</h3>
-    <p>Empresa do setor de informática, especializada em venda de peças para notebooks</p>
+    <p>Empresa do setor de informática, especializada em venda de peças para notebooks:</p>
     <ul>
       <li>Venda de peças de informática</li>
       <li>Gerencimento do catálogo do site</li>
@@ -31,7 +31,7 @@
     <br>
     
     <h3>4Network - Desenvolvedor | 2023 (atual)</h3>
-    <p>Desenvolvedor em formação pela Snow Academy. Atividades já realizadas:</p>
+    <p>Desenvolvedor em formação pela Snow Academy em parceria com a 4Network. Atividades já realizadas na 4Network:</p>
     <ul>
       <li>Ajustes básicos no site feito em PHP</li>
       <li>Desenvolvimento do layout inicial de uma plataforma de gerenciamento de leads (4Prospects)</li>
