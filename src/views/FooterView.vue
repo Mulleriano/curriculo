@@ -57,7 +57,7 @@
   height: 100%;
   width: 500px;
   padding: 20px 0;
-  border-radius: 50px 0 0 0;
+  border-radius: 50px 0 10px 0;
 
   /* Alinhamento dos ícones */
   display: flex;

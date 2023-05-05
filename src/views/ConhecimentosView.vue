@@ -43,9 +43,8 @@
         <img src="../assets/conhecimentos/id.png" alt="InDesign">
         <p>InDesign</p>
       </div>
-
     </div>
-
+    
   </div>
 </template>
 
@@ -86,6 +85,7 @@ h3 {
 }
 
 p {
+  text-align: center;
   color: white;
   font-size: 1.2rem;
   line-height: 30px;
@@ -104,5 +104,4 @@ img {
   column-gap: 20px;
   margin-bottom: 20px;
 }
-
 </style>

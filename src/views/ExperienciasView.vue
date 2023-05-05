@@ -4,7 +4,9 @@
 
 <template>
   <div id="experiencias">
-    <h2>Designer - 4Network 2021 a </h2>
+    <h2>Experiencias</h2>
+
+    
   </div>
 </template>
 

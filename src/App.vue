@@ -13,7 +13,6 @@ import FooterView from './views/FooterView.vue';
 
       <header>
         <HeaderView />
-
       </header>
 
       <nav>
@@ -88,7 +87,7 @@ footer {grid-area: d;}
 
 nav {
   max-width: 100%;
-  margin: 70px 0;
+  margin: 100px 0;
 
   /* Alinhamento dos links na navegação */
   display: flex;
