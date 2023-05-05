@@ -4,7 +4,6 @@
 
 <template>
   <div id="conhecimentos">
-    <h2>Conhecimentos</h2>
 
     <div class="itens">
 

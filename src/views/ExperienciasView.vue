@@ -4,9 +4,40 @@
 
 <template>
   <div id="experiencias">
-    <h2>Experiencias</h2>
 
-    <h3>4Network - Designer</h3>
+    <h3>Plug Importing - Vendedor | 2019 e 2020</h3>
+    <p>Empresa do setor de informática, especializada em venda de peças para notebooks</p>
+    <ul>
+      <li>Venda de peças de informática</li>
+      <li>Gerencimento do catálogo do site</li>
+      <li>Assistência técnica de notebooks</li>
+      <li>Treinamento de funcionários</li>
+      <li>Abertura e fechamento de caixa</li>
+    </ul>
+
+    <br>
+    
+    <h3>4Network - Designer | 2021 e 2022</h3>
+    <p>Desenvolvimento de artes gráficas e audiovisuais para eventos corporativos como:</p>
+    <ul>
+      <li>Identidades visuais</li>
+      <li>Artes para redes sociais</li>
+      <li>Materiais gráficas</li>
+      <li>GIFs e Vinhetas</li>
+      <li>Edição de vídeos</li>
+      <li>Criação de vídeos instrutivos animados</li>
+    </ul>
+    
+    <br>
+    
+    <h3>4Network - Desenvolvedor | 2023 (atual)</h3>
+    <p>Desenvolvedor em formação pela Snow Academy. Atividades já realizadas:</p>
+    <ul>
+      <li>Ajustes básicos no site feito em PHP</li>
+      <li>Desenvolvimento do layout inicial de uma plataforma de gerenciamento de leads (4Prospects)</li>
+      <li>Ajustes de permissões de funcionários em sistemas</li>
+      <li>Projeto de estudos de Controle de Estoque para o time de infraestrutura</li>
+    </ul>
 
   </div>
 </template>

@@ -4,14 +4,12 @@ import Carrossel from "../components/Carrossel.vue";
 
 <template>
   <div id="sobreMim">
-    <h2>Sobre mim</h2>
 
     <p>
       Adoro passar o tempo com a minha família que é composta pela minha noiva maravilhosa, 2 gatos (o Jorel e o Peter) e uma cachorra chamada Ivy. Gosto
       também de fazer Beatbox, andar de bike e de aprender coisas novas.
     </p>
 
-    <!-- Abaixo coloquei algumas fotos pra mostrar um pouco mais da minha vida! -->
     <!-- <Carrossel /> -->
   </div>
 </template>
