@@ -38,17 +38,4 @@ import Carrossel from "../components/Carrossel.vue";
   border-radius: 50px;
 }
 
-h2 {
-  text-align: center;
-  font-weight: bold;
-  font-size: 1.5rem;
-  color: #07cdf0;
-  margin-bottom: 20px;
-}
-
-p {
-  color: white;
-  font-size: 1.1rem;
-  line-height: 30px;
-}
 </style>

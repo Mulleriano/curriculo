@@ -7,24 +7,6 @@
     <h2>Conhecimentos</h2>
 
     <div class="itens">
-      <div class="dev">
-        <h3>Desenvolvimento</h3>
-
-        <img src="../assets/conhecimentos/html.png" alt="HTML">
-        <p>HTML5</p>
-
-        <img src="../assets/conhecimentos/css.png" alt="CSS">
-        <p>CSS3</p>
-
-        <img src="../assets/conhecimentos/js.png" alt="JavaScript">
-        <p>HTML5</p>
-
-        <img src="../assets/conhecimentos/vue.png" alt="Vue JS">
-        <p>Vue JS</p>
-
-        <img src="../assets/conhecimentos/figma.png" alt="Figma">
-        <p>Figma</p>
-      </div>
 
       <div class="motion">
         <h3>Motion Design</h3>
@@ -42,6 +24,25 @@
 
         <img src="../assets/conhecimentos/id.png" alt="InDesign">
         <p>InDesign</p>
+      </div>
+      
+      <div class="dev">
+        <h3>Desenvolvimento</h3>
+
+        <img src="../assets/conhecimentos/html.png" alt="HTML">
+        <p>HTML5</p>
+
+        <img src="../assets/conhecimentos/css.png" alt="CSS">
+        <p>CSS3</p>
+
+        <img src="../assets/conhecimentos/js.png" alt="JavaScript">
+        <p>HTML5</p>
+
+        <img src="../assets/conhecimentos/vue.png" alt="Vue JS">
+        <p>Vue JS</p>
+
+        <img src="../assets/conhecimentos/figma.png" alt="Figma">
+        <p>Figma</p>
       </div>
 
       <div class="motion">
@@ -80,27 +81,6 @@
 #conhecimentos::-webkit-scrollbar-thumb {
   background-color: #07cdf0;
   border-radius: 50px;
-}
-
-h2 {
-  text-align: center;
-  font-weight: bold;
-  font-size: 1.5rem;
-  color: #07cdf0;
-  margin-bottom: 20px;
-}
-
-h3 {
-  color: #fff;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-
-p {
-  text-align: center;
-  color: white;
-  font-size: 1.2rem;
-  line-height: 30px;
 }
 
 img {

@@ -6,7 +6,7 @@
   <div id="experiencias">
     <h2>Experiencias</h2>
 
-    <h3></h3>
+    <h3>4Network - Designer</h3>
 
   </div>
 </template>
@@ -31,20 +31,6 @@
 #experiencias::-webkit-scrollbar-thumb {
 background-color: #07cdf0;
 border-radius: 50px;
-}
-
-h2 {
-  text-align: center;
-  font-weight: bold;
-  font-size: 1.5rem;
-  color: #07cdf0;
-  margin-bottom: 20px;
-}
-
-p {
-  color: white;
-  font-size: 1.2rem;
-  line-height: 30px;
 }
 
 </style>
