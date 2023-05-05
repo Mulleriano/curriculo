@@ -1,20 +1,9 @@
 <script>
+
 </script>
 
 <template>
-    <!-- <div id="carrossel">
-        <div class="card">
-            <button id="prev" class="setas">&lt;</button>
-            <div class="imagens">
-                <img src="../assets/minhaFoto.jpeg" alt="fotoTeste">
-                <img src="../assets/linkedin.png" alt="fotoTeste">
-                <img src="../assets/minhaFoto.jpeg" alt="fotoTeste">
-                <img src="../assets/minhaFoto.jpeg" alt="fotoTeste">
-                <img src="../assets/minhaFoto.jpeg" alt="fotoTeste">
-            </div>
-            <button id="next" class="setas">&gt;</button>
-        </div>
-    </div> -->
+
 
 </template>
 
