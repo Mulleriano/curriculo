@@ -1,21 +1,30 @@
 <script>
+/* export default {
+    data() {
+        return {
+            items: [
+                {
+                    src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg',
+                },
+                {
+                    src: 'https://cdn.vuetifyjs.com/images/carousel/sky.jpg',
+                },
+                {
+                    src: 'https://cdn.vuetifyjs.com/images/carousel/bird.jpg',
+                },
+                {
+                    src: 'https://cdn.vuetifyjs.com/images/carousel/planet.jpg',
+                },
+            ],
+        }
+    },
+} */
 </script>
 
 <template>
-    <!-- <div id="carrossel">
-        <div class="card">
-            <button id="prev" class="setas">&lt;</button>
-            <div class="imagens">
-                <img src="../assets/minhaFoto.jpeg" alt="fotoTeste">
-                <img src="../assets/linkedin.png" alt="fotoTeste">
-                <img src="../assets/minhaFoto.jpeg" alt="fotoTeste">
-                <img src="../assets/minhaFoto.jpeg" alt="fotoTeste">
-                <img src="../assets/minhaFoto.jpeg" alt="fotoTeste">
-            </div>
-            <button id="next" class="setas">&gt;</button>
-        </div>
-    </div> -->
-
+   <!--  <v-carousel hide-delimiters>
+        <v-carousel-item v-for="(item, i) in items" :key="i" :src="item.src" cover class="teste"></v-carousel-item>
+    </v-carousel> -->
 </template>
 
 <style scoped>
