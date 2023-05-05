@@ -6,11 +6,12 @@ import Carrossel from "../components/Carrossel.vue";
   <div id="sobreMim">
 
     <p>
-      Adoro passar o tempo com a minha família que é composta pela minha noiva maravilhosa, 2 gatos (o Jorel e o Peter) e uma cachorra chamada Ivy. Gosto
+      Adoro passar o tempo com a minha família que é composta pela minha noiva maravilhosa, 2 gatos (o Jorel e o Peter) e
+      uma cachorra chamada Ivy. Gosto
       também de fazer Beatbox, andar de bike e de aprender coisas novas.
     </p>
 
-    <!-- <Carrossel /> -->
+    <Carrossel />
   </div>
 </template>
 
@@ -35,5 +36,4 @@ import Carrossel from "../components/Carrossel.vue";
   background-color: #07cdf0;
   border-radius: 50px;
 }
-
 </style>
