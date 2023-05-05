@@ -1,5 +1,5 @@
 <script setup>
-import Carrossel from "../components/Carrossel.vue";
+
 </script>
 
 <template>
@@ -11,7 +11,6 @@ import Carrossel from "../components/Carrossel.vue";
       também de fazer Beatbox, andar de bike e de aprender coisas novas.
     </p>
 
-    <Carrossel />
   </div>
 </template>
 
