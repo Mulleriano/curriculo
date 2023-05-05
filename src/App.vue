@@ -1,7 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router';
-import HeaderView from './views/HeaderView.vue';
-import FooterView from './views/FooterView.vue';
+import Cabecalho from './components/Cabecalho.vue';
+import Rodape from './components/Rodape.vue';
 
 </script>
 
@@ -12,7 +12,7 @@ import FooterView from './views/FooterView.vue';
     <div id="content">
 
       <header>
-        <HeaderView />
+        <Cabecalho />
       </header>
 
       <nav>
@@ -34,7 +34,7 @@ import FooterView from './views/FooterView.vue';
       </main>
 
       <footer>
-        <FooterView />
+        <Rodape />
       </footer>
 
     </div>

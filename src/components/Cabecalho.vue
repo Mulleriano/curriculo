@@ -13,7 +13,7 @@ export default {
 <template>
 
     <div id="usuario">
-        <img id="minhaFoto" alt="Minha foto" class="logo" src="../assets/minhaFoto.jpeg" />
+        <img id="minhaFoto" alt="Minha foto" src="../assets/minhaFoto.jpeg" />
 
         <h1 id="nome">{{ nome }}</h1>
         <h2 id="profissao">{{ profissao }}</h2>
