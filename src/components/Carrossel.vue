@@ -5,12 +5,6 @@
 <template>
 
 
-
-</script>
-
-<template>
-
-
 </template>
 
 <style scoped>
