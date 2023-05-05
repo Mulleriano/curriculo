@@ -6,7 +6,7 @@
 
   <div id="footer">
 
-    <h2 class="texto">Contato</h2>
+    <span class="contato">Contato</span>
   
     <div id="contact">
       
@@ -45,7 +45,7 @@
   width: 50px;
 }
 
-#footer h2 {
+.contato {
   font-weight: bold;
   font-size: 1.7rem;
   padding-left: 30px;
@@ -57,7 +57,7 @@
   height: 100%;
   width: 500px;
   padding: 20px 0;
-  border-radius: 50px 0 0 0;
+  border-radius: 50px 0 10px 0;
 
   /* Alinhamento dos ícones */
   display: flex;

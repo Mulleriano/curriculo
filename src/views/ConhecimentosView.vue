@@ -4,9 +4,27 @@
 
 <template>
   <div id="conhecimentos">
-    <h2>Conhecimentos</h2>
 
     <div class="itens">
+
+      <div class="motion">
+        <h3>Motion Design</h3>
+        <img src="../assets/conhecimentos/ae.png" alt="After Effects">
+        <p>After Effects</p>
+
+        <img src="../assets/conhecimentos/pr.png" alt="Premiere Pro">
+        <p>Premiere Pro</p>
+
+        <img src="../assets/conhecimentos/ai.png" alt="Illustrator">
+        <p>Illustrator</p>
+
+        <img src="../assets/conhecimentos/ps.png" alt="Photoshop">
+        <p>Photoshop</p>
+
+        <img src="../assets/conhecimentos/id.png" alt="InDesign">
+        <p>InDesign</p>
+      </div>
+      
       <div class="dev">
         <h3>Desenvolvimento</h3>
 
@@ -27,25 +45,18 @@
       </div>
 
       <div class="motion">
-        <h3>Motion Design</h3>
-        <img src="../assets/conhecimentos/ae.png" alt="After Effects">
-        <p>After Effects</p>
+        <h3>Idiomas</h3>
+        <img src="../assets/conhecimentos/ingles.png" alt="Inglês">
+        <p>Inglês</p>
 
-        <img src="../assets/conhecimentos/pr.png" alt="Premiere Pro">
-        <p>Premiere Pro</p>
+        <img src="../assets/conhecimentos/espanhol.png" alt="Espanhol">
+        <p>Espanhol</p>
 
-        <img src="../assets/conhecimentos/ai.png" alt="Illustrator">
-        <p>Illustrator</p>
-
-        <img src="../assets/conhecimentos/ps.png" alt="Photoshop">
-        <p>Photoshop</p>
-
-        <img src="../assets/conhecimentos/id.png" alt="InDesign">
-        <p>InDesign</p>
+        <img src="../assets/conhecimentos/frances.png" alt="Francês">
+        <p>Francês</p>
       </div>
-
     </div>
-
+    
   </div>
 </template>
 
@@ -71,26 +82,6 @@
   border-radius: 50px;
 }
 
-h2 {
-  text-align: center;
-  font-weight: bold;
-  font-size: 1.5rem;
-  color: #07cdf0;
-  margin-bottom: 20px;
-}
-
-h3 {
-  color: #fff;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-
-p {
-  color: white;
-  font-size: 1.2rem;
-  line-height: 30px;
-}
-
 img {
   width: 50px;
   margin-top: 10px;
@@ -99,10 +90,9 @@ img {
 /* Grid de conhecimentos */
 .itens {
   display: grid;
-  grid-template: 150px / auto auto;
+  grid-template: 200px / auto auto auto;
   text-align: center;
   column-gap: 20px;
   margin-bottom: 20px;
 }
-
 </style>

@@ -13,10 +13,10 @@ export default {
 <template>
 
     <div id="usuario">
-        <img id="minhaFoto" alt="Minha foto" class="logo" src="../assets/minhaFoto.jpeg" />
+        <img id="minhaFoto" alt="Minha foto" src="../assets/minhaFoto.jpeg" />
 
         <h1 id="nome">{{ nome }}</h1>
-        <p id="profissao">{{ profissao }}</p>
+        <h2 id="profissao">{{ profissao }}</h2>
     </div>
 
 </template>
@@ -39,8 +39,8 @@ export default {
 
 #minhaFoto {
     border-radius: 50%;
-    border: 7px solid rgb(7, 205, 240);
-    box-shadow: 0 5px 30px 0 rgba(9, 197, 230, 0.5);
+    border: 4px solid rgb(7, 205, 240);
+    box-shadow: 0 0 30px 0 rgba(9, 197, 230, 0.5);
     width: 200px;
 }
 
@@ -56,5 +56,6 @@ export default {
   color: #07cdf0;
   font-weight: bold;
   font-size: 1.7rem;
+  margin-bottom: 0;
 }
 </style>

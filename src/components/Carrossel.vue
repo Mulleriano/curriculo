@@ -5,7 +5,7 @@
 <template>
     <div id="carrossel">
         <div class="card">
-            <a id="prev">&lt;</a>
+            <a id="prev" class="setas">&lt;</a>
             <div class="imagens">
                 <img src="../assets/minhaFoto.jpeg" alt="fotoTeste">
                 <img src="../assets/linkedin.png" alt="fotoTeste">
@@ -26,7 +26,7 @@
         margin-top: 20px;
     }
 
-    a {
+    .setas {
         color: #07cdf0;
         font-weight: bold;
         font-size: 3rem;
@@ -35,7 +35,7 @@
         transition: all ease 0.3s;
     }
 
-    a:hover {
+    .setas:hover {
         scale:1.5;
     }
 
