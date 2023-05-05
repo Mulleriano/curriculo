@@ -40,13 +40,23 @@ import Rodape from './components/Rodape.vue';
       </footer>
 
     </div>
+
+    <lottie-player class="animacao" src="https://assets6.lottiefiles.com/packages/lf20_wbwoxby3.json" background="transparent"  speed="1"  style="width: 400px;" loop autoplay></lottie-player>
+
   </div>
 </template>
 
 <style scoped>
+.animacao {
+  border: none;
+  position: fixed;
+  left: 50px;
+  bottom: -200px;
+}
+
 /* Estilo do container para o conteúdo */
 #container {
-  background: url('https://img.wallpapersafari.com/desktop/1920/1080/19/51/a415uP.jpeg') no-repeat;
+  background: url('https://img.wallpapersafari.com/desktop/1920/1080/19/51/a415uP.jpeg') center no-repeat;
   background-size: cover;
   min-height: 100vh;
 
@@ -122,6 +132,5 @@ nav {
 main {
   width: 100%;
   min-height: 50vh;
-  margin-top: 20px;
 }
 </style>
