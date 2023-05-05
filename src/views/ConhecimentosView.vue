@@ -43,6 +43,18 @@
         <img src="../assets/conhecimentos/id.png" alt="InDesign">
         <p>InDesign</p>
       </div>
+
+      <div class="motion">
+        <h3>Idiomas</h3>
+        <img src="../assets/conhecimentos/ingles.png" alt="Inglês">
+        <p>Inglês</p>
+
+        <img src="../assets/conhecimentos/espanhol.png" alt="Espanhol">
+        <p>Espanhol</p>
+
+        <img src="../assets/conhecimentos/frances.png" alt="Francês">
+        <p>Francês</p>
+      </div>
     </div>
     
   </div>
@@ -99,7 +111,7 @@ img {
 /* Grid de conhecimentos */
 .itens {
   display: grid;
-  grid-template: 150px / auto auto;
+  grid-template: 200px / auto auto auto;
   text-align: center;
   column-gap: 20px;
   margin-bottom: 20px;

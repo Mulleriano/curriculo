@@ -8,7 +8,7 @@ import Carrossel from "../components/Carrossel.vue";
 
     <p>
       Adoro passar o tempo com a minha família que é composta pela minha noiva maravilhosa, 2 gatos (o Jorel e o Peter) e uma cachorra chamada Ivy. Gosto
-      também de fazer Beatbox e de aprender coisas novas.
+      também de fazer Beatbox, andar de bike e de aprender coisas novas.
     </p>
 
     <!-- Abaixo coloquei algumas fotos pra mostrar um pouco mais da minha vida! -->

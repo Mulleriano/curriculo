@@ -1,8 +1,10 @@
 <script setup>
+/* Rotas */
 import { RouterLink, RouterView } from 'vue-router';
+
+/* Components */
 import Cabecalho from './components/Cabecalho.vue';
 import Rodape from './components/Rodape.vue';
-
 </script>
 
 <template>
