@@ -102,3 +102,16 @@ ul {
   line-height: 30px;
   margin-left: 20px;
 }
+
+@media screen and (max-width: 1024px) {
+  h2 {
+    font-size: 1.3rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  p, ul {
+    font-size: 0.9rem;
+    line-height: 23px;
+  }
+}
