@@ -24,7 +24,7 @@
         <img src="../assets/conhecimentos/id.png" alt="InDesign">
         <p>InDesign</p>
       </div>
-      
+
       <div class="dev">
         <h3>Desenvolvimento</h3>
 
@@ -56,7 +56,7 @@
         <p>Francês</p>
       </div>
     </div>
-    
+
   </div>
 </template>
 
@@ -94,5 +94,24 @@ img {
   text-align: center;
   column-gap: 20px;
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  #conhecimentos {
+    height: 300px;
+  }
+  .itens {
+    column-gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  img {
+    width: 40px;
+    margin-top: 10px;
+  }
+
+  #conhecimentos {
+    padding: 20px 5px;
+  }
 }
 </style>

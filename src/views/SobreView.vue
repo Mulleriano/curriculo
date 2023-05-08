@@ -73,6 +73,7 @@
   border: 2px solid #07cdf0;
   border-radius: 10px;
 }
+
 .ivy {
   background: url('../assets/sobre/ivy.jpeg') no-repeat center;
   background-size: cover;
@@ -91,4 +92,14 @@
   border-radius: 10px;
 }
 
+@media screen and (max-width: 1024px) {
+  #fotos {
+    grid-template-columns: 1fr;
+  }
+
+  .bia, .ivy, .jorel, .peter {
+    width: 220px;
+    height: 220px;
+  }
+}
 </style>

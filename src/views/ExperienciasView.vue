@@ -64,4 +64,10 @@ background-color: #07cdf0;
 border-radius: 50px;
 }
 
+@media screen and (max-width: 1024px){
+  #experiencias {
+    height: 300px;
+  }
+}
+
 </style>
