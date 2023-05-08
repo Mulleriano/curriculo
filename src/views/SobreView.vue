@@ -11,6 +11,19 @@
       também de fazer Beatbox, andar de bike e de aprender coisas novas.
     </p>
 
+    <div id="fotos">
+      <div class="bia">
+      </div>
+
+      <div class="peter">
+      </div>
+
+      <div class="ivy">
+      </div>
+
+      <div class="jorel"></div>
+    </div>
+
   </div>
 </template>
 
@@ -34,5 +47,40 @@
 #sobreMim::-webkit-scrollbar-thumb {
   background-color: #07cdf0;
   border-radius: 50px;
+}
+
+#fotos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.bia {
+  background: url('../assets/sobre/bia.jpeg') no-repeat center;
+  background-size: cover;
+  width: 270px;
+  height: 270px;
+}
+
+.ivy {
+  background: url('../assets/sobre/ivy.jpeg') no-repeat center;
+  background-size: cover;
+  width: 270px;
+  height: 270px;
+}
+
+.jorel {
+  background: url('../assets/sobre/jorel.jpeg') no-repeat center;
+  background-size: cover;
+  width: 270px;
+  height: 270px;
+}
+
+.peter {
+  background: url('../assets/sobre/peter.jpeg') no-repeat center;
+  background-size: cover;
+  width: 270px;
+  height: 270px;
 }
 </style>
