@@ -61,20 +61,8 @@
   background-size: cover;
   width: 270px;
   height: 270px;
-}
-
-.ivy {
-  background: url('../assets/sobre/ivy.jpeg') no-repeat center;
-  background-size: cover;
-  width: 270px;
-  height: 270px;
-}
-
-.jorel {
-  background: url('../assets/sobre/jorel.jpeg') no-repeat center;
-  background-size: cover;
-  width: 270px;
-  height: 270px;
+  border: 2px solid #07cdf0;
+  border-radius: 10px;
 }
 
 .peter {
@@ -82,5 +70,25 @@
   background-size: cover;
   width: 270px;
   height: 270px;
+  border: 2px solid #07cdf0;
+  border-radius: 10px;
 }
+.ivy {
+  background: url('../assets/sobre/ivy.jpeg') no-repeat center;
+  background-size: cover;
+  width: 270px;
+  height: 270px;
+  border: 2px solid #07cdf0;
+  border-radius: 10px;
+}
+
+.jorel {
+  background: url('../assets/sobre/jorel.jpeg') no-repeat center;
+  background-size: cover;
+  width: 270px;
+  height: 270px;
+  border: 2px solid #07cdf0;
+  border-radius: 10px;
+}
+
 </style>
