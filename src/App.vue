@@ -85,6 +85,7 @@ footer {grid-area: d;}
   /* Estilo do box de conteúdo */
   background-color: white;
   width: 50%;
+  z-index: 1;
 
   /* glassmorph */
   background: rgba(10, 37, 66, 0.2);
