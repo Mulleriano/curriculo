@@ -158,6 +158,7 @@ main {
 
       width: 90%;
       margin: 10px;
+      min-height: 90vh;
   }
 
   nav {
