@@ -41,7 +41,8 @@ import Rodape from './components/Rodape.vue';
 
     </div>
 
-    <lottie-player class="animacao" src="https://assets6.lottiefiles.com/packages/lf20_wbwoxby3.json" background="transparent"  speed="1"  style="width: 400px;" loop autoplay></lottie-player>
+    <lottie-player class="animacao" src="https://assets6.lottiefiles.com/packages/lf20_wbwoxby3.json"
+      background="transparent" speed="1" style="width: 400px;" loop autoplay></lottie-player>
 
   </div>
 </template>
@@ -68,10 +69,21 @@ import Rodape from './components/Rodape.vue';
 }
 
 /* Variáveis para criação do grid */
-header {grid-area: a;}
-nav {grid-area: b;}
-main {grid-area: c;}
-footer {grid-area: d;}
+header {
+  grid-area: a;
+}
+
+nav {
+  grid-area: b;
+}
+
+main {
+  grid-area: c;
+}
+
+footer {
+  grid-area: d;
+}
 
 #content {
   /* Display de grid */
@@ -111,7 +123,7 @@ nav {
 .links {
   /* Alinhamento dos links individuais */
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   justify-content: space-around;
   font-size: 1.7rem;
   height: 100%;
@@ -132,6 +144,32 @@ nav {
 /* Estilo dos conteúdos */
 main {
   width: 100%;
-  min-height: 50vh;
+}
+
+@media screen and (max-width: 1024px) {
+  #content {
+    /* Display de grid */
+    display: grid;
+    grid-template:
+      "a a a a"
+      "b b b b"
+      "c c c c"
+      "d d d d" / 1fr 1fr 1fr 1fr;
+
+      width: 90%;
+      margin: 10px;
+  }
+
+  nav {
+    max-width: 50%;
+    text-align: center;
+    align-items: center;
+    margin: 10px auto;
+  }
+
+  .links {
+    font-size: 1rem;
+    padding: 5px;
+  }
 }
 </style>
