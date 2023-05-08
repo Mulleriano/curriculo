@@ -93,6 +93,10 @@
 }
 
 @media screen and (max-width: 1024px) {
+  #sobreMim {
+    height: 300px;
+  }
+  
   #fotos {
     grid-template-columns: 1fr;
   }
