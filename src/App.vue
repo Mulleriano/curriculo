@@ -169,7 +169,8 @@ main {
 
   .links {
     font-size: 1rem;
-    padding: 5px;
+    padding: 7px;
+    border-radius: 5px;
   }
 }
 </style>

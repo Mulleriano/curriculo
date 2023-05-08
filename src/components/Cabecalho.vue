@@ -58,4 +58,16 @@ export default {
   font-size: 1.7rem;
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 900px) {
+  #minhaFoto {
+    width: 150px;
+  }
+  #nome {
+    font-size: 2rem;
+  }
+  #profissao {
+    font-size: 1.3rem;
+  }
+}
 </style>
