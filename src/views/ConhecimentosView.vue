@@ -6,7 +6,6 @@
   <div id="conhecimentos">
 
     <div class="itens">
-
       <div class="motion">
         <h3>Motion Design</h3>
         <img src="../assets/conhecimentos/ae.png" alt="After Effects">
@@ -36,6 +35,7 @@
 
         <img src="../assets/conhecimentos/js.png" alt="JavaScript">
         <p>HTML5</p>
+  
 
         <img src="../assets/conhecimentos/vue.png" alt="Vue JS">
         <p>Vue JS</p>
@@ -54,6 +54,7 @@
 
         <img src="../assets/conhecimentos/frances.png" alt="Francês">
         <p>Francês</p>
+       
       </div>
     </div>
 
