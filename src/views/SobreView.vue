@@ -1,4 +1,9 @@
-<script setup></script>
+<script>
+import InitializePopover from '@/mixins/InitializePopover.js'
+export default {
+  mixins: [InitializePopover]
+}
+</script>
 
 <template>
   <div id="sobreMim">
@@ -142,7 +147,6 @@ padding-top: 40%;
 font-size: 1.5rem;
 border-radius: 10px;
 }
-
 
 
 @media screen and (max-width: 1024px) {

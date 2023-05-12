@@ -5,6 +5,10 @@
 <template>
   <div id="footer">
 
+    <button type="button" class="btn btn-lg btn-danger popover" data-bs-toggle="popover" data-bs-title="Copyright" data-bs-content="Fundo utilizado:https://img.wallpapersafari.com/desktop/1920/1080/19/51/a415uP.jpeg
+      Animação utilizada (lottie-player)
+      Ícones baixados em Icons8.com">Copyright</button>
+
     <span class="contato">Contato</span>
 
     <div id="contact">
@@ -35,6 +39,7 @@
   width: 100%;
   font-size: 1rem;
   border-radius: 0 0 10px 10px;
+  padding-left: 3rem;
 }
 
 /* Tamanho padrão para os ícones */
@@ -64,6 +69,12 @@
 
 #contact a {
   margin: 0 30px;
+}
+
+.popover{
+  background-color: #084686;
+  color:#fff;
+  border: none;
 }
 
 @media screen and (max-width: 1024px) {

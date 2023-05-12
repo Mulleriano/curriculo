@@ -6,38 +6,22 @@
   <div id="conhecimentos">
 
     <div class="itens">
-
       <div class="motion">
         <h3>Motion Design</h3>
         <img src="../assets/conhecimentos/ae.png" alt="After Effects">
         <p>After Effects</p>
-        <div class="progress barras" role="progressbar" aria-label="Info example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-            <div class="progress-bar bg-info text-dark" style="width: 80%">80%</div>
-        </div>
 
         <img src="../assets/conhecimentos/pr.png" alt="Premiere Pro">
         <p>Premiere Pro</p>
-        <div class="progress barras" role="progressbar" aria-label="Info example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-            <div class="progress-bar bg-info text-dark" style="width: 80%">80%</div>
-        </div>
 
         <img src="../assets/conhecimentos/ai.png" alt="Illustrator">
         <p>Illustrator</p>
-        <div class="progress barras" role="progressbar" aria-label="Info example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-            <div class="progress-bar bg-info text-dark" style="width: 80%">80%</div>
-        </div>
 
         <img src="../assets/conhecimentos/ps.png" alt="Photoshop">
         <p>Photoshop</p>
-        <div class="progress barras" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-            <div class="progress-bar bg-info text-dark" style="width: 50%">50%</div>
-        </div>
 
         <img src="../assets/conhecimentos/id.png" alt="InDesign">
         <p>InDesign</p>
-        <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
-            <div class="progress-bar bg-info text-dark" style="width: 30%">30%</div>
-        </div>
       </div>
 
       <div class="dev">
@@ -45,54 +29,32 @@
 
         <img src="../assets/conhecimentos/html.png" alt="HTML">
         <p>HTML5</p>
-        <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-            <div class="progress-bar bg-info text-dark" style="width: 80%">80%</div>
-        </div>
 
         <img src="../assets/conhecimentos/css.png" alt="CSS">
         <p>CSS3</p>
-        <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-            <div class="progress-bar bg-info text-dark" style="width: 70%">70%</div>
-        </div>
 
         <img src="../assets/conhecimentos/js.png" alt="JavaScript">
         <p>HTML5</p>
-        <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-            <div class="progress-bar bg-info text-dark" style="width: 80%">80%</div>
-        </div>
+  
 
         <img src="../assets/conhecimentos/vue.png" alt="Vue JS">
         <p>Vue JS</p>
-        <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
-            <div class="progress-bar bg-info text-dark" style="width: 10%">10%</div>
-        </div>
 
         <img src="../assets/conhecimentos/figma.png" alt="Figma">
         <p>Figma</p>
-        <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-            <div class="progress-bar bg-info text-dark" style="width: 70%">70%</div>
-        </div>
       </div>
 
       <div class="motion">
         <h3>Idiomas</h3>
         <img src="../assets/conhecimentos/ingles.png" alt="Inglês">
         <p>Inglês</p>
-        <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-            <div class="progress-bar bg-info text-dark" style="width: 70%">70%</div>
-        </div>
 
         <img src="../assets/conhecimentos/espanhol.png" alt="Espanhol">
         <p>Espanhol</p>
-        <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
-            <div class="progress-bar bg-info text-dark" style="width: 40%">40%</div>
-        </div>
 
         <img src="../assets/conhecimentos/frances.png" alt="Francês">
         <p>Francês</p>
-        <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
-            <div class="progress-bar bg-info text-dark" style="width: 10%">10%</div>
-        </div>
+       
       </div>
     </div>
 
